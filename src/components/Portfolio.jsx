@@ -1,9 +1,19 @@
 import React from "react";
 import installNode from "../assets/portfolio/installNode.jpg";
-
+import cafeWebsite from "../assets/portfolio/cafeWebsite.png";
 
 const Portfolio = () => {
-
+  const portfolios = [
+    {
+      id: 1,
+      src: cafeWebsite,
+    },
+    {
+      id: 2,
+      src: installNode,
+    },
+  
+  ];
   return (
     <div
       name="portfolio"
@@ -17,11 +27,11 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
-         
-            <div className="shadow-md shadow-gray-600 rounded-lg">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {portfolios.map(({ id, src }) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                src={installNode}
+                src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
@@ -29,19 +39,22 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
+                <a href="https://github.com/Natik-hub/CafeWebsite" target="_blank" rel="noreferrer">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
+                 </a>
+               
               </div>
             </div>
-            <div>
+          ))}
+           <div>
             <h1 className="flex items-center justify-center text-4xl font-bold ">More to Come</h1>
         </div>
         </div>
-        
       </div>
     </div>
   );
 };
-
+  
 export default Portfolio;
