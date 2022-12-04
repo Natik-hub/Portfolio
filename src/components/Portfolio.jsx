@@ -1,6 +1,7 @@
 import React from "react";
 import installNode from "../assets/portfolio/installNode.jpg";
 import cafeWebsite from "../assets/portfolio/cafeWebsite.png";
+import blogApp from '../assets/portfolio/blogApp.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,6 +15,12 @@ const Portfolio = () => {
       src: installNode,
       href: "",
     },
+    {
+      id: 3,
+      src: blogApp,
+      href: "",
+    },
+
   
   ];
   return (
