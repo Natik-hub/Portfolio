@@ -18,7 +18,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: blogApp,
-      href: "",
+      href: "https://blog-app-chi-bay.vercel.app/",
     },
 
   
@@ -45,11 +45,17 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
+                <a 
+                href={href} 
+                target="_blank" 
+                rel="noreferrer"> 
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
+                </a>
+               
                 <a 
-                href={href} 
+                href='https://github.com/Natik-hub?tab=repositories' 
                 target="_blank" 
                 rel="noreferrer">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
