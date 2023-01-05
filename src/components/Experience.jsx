@@ -10,6 +10,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import figma from "../assets/figma.png";
 import firebase from "../assets/firebase.png";
+import node from '../assets/node.png';
 
 const Experience = () => {
     const techs = [
@@ -72,6 +73,12 @@ const Experience = () => {
         src: firebase,
         title: 'Firebase',
         style: "shadow-orange-400",
+      },
+      {
+        id: 11,
+        src: node,
+        title: 'Node',
+        style: 'shadow-green-400',
       }
     ];
   
