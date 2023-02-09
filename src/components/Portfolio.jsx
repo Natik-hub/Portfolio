@@ -1,5 +1,5 @@
 import React from "react";
-import installNode from "../assets/portfolio/installNode.jpg";
+import littlelemon from "../assets/portfolio/littlelemon.png";
 import cafeWebsite from "../assets/portfolio/cafeWebsite.png";
 import blogApp from '../assets/portfolio/blogApp.png';
 
@@ -12,8 +12,8 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: installNode,
-      href: "",
+      src: littlelemon,
+      href: "https://github.com/Natik-hub/Frontend-Developer_Capstone",
     },
     {
       id: 3,
@@ -67,7 +67,7 @@ const Portfolio = () => {
             </div>
           ))}
            <div>
-            <h1 className="flex items-center justify-center text-4xl font-bold ">More to Come</h1>
+            <h1 className="flex items-center justify-center text-4xl font-bold ">Check my Github for more</h1>
         </div>
         </div>
       </div>
