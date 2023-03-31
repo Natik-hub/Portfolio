@@ -14,12 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        It’s a pleasure to meet you. My name is Natnael Kibru I’m a self-employed digital marketer 
-        and software developer at a tech startup called Yaltopia tech. I am confident in my ability 
-        to complete tasks assigned to me in a timely manner. Eager to take on new challenges and prepared 
-        to learn new things to expand and grow my knowledge, skills and abilities.
-         Possess excellent communication skills and have an eye for detail.
-          Flexible to work in any environment as required. I believe I have necessary skills and knowledge required to help you. 
+        It’s a pleasure to meet you. My name is Natnael Kibru and I have a degree in software engineering. I was self-employed as a software developer and digital marketer at a tech startup called Yaltopia tech. I have more than a year of experience developing websites. I have confidence in my ability to complete tasks assigned to me in a timely manner. I'm also a fast learner so I'm ready to learn new things if needed. I have good communication abilities and flexible to work in any environment as required. All in All, I believe I have necessary skills and knowledge required to help you. 
           I have my CV and LinkedIn profile on the sidebar.
 
         </p>
