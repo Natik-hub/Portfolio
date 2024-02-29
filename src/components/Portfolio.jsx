@@ -18,7 +18,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: blogApp,
-      href: "blog-app-one-cyan.vercel.app/",
+      href: "https://blog-app-one-cyan.vercel.app/",
     },
 
   
