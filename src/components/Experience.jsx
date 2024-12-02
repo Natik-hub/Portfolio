@@ -6,13 +6,15 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import figma from "../assets/figma.png";
 import firebase from "../assets/firebase.png";
 import node from '../assets/node.png';
 import mongodb from '../assets/mongoDB.png';
-
+import sharepoint from '../assets/SharePoint.png';
+import powerApps from '../assets/PowerApps.png';
+import powerautomate from '../assets/PowerAutomate.png';
+import powerbi from '../assets/powerbi.png';
 const Experience = () => {
     const techs = [
       {
@@ -59,34 +61,53 @@ const Experience = () => {
       },
       {
         id: 8,
-        src: github,
-        title: "GitHub",
-        style: "shadow-gray-400",
-      },
-      {
-        id: 9,
         src: figma,
         title: 'Figma',
         style: "shadow-green-400",
       },
       {
-        id: 10,
+        id: 9,
         src: node,
         title: 'Node',
         style: 'shadow-green-400',
       },
       {
-        id: 11,
+        id: 10,
         src: firebase,
         title: 'Firebase',
         style: "shadow-orange-400",
       },
       {
-        id:12,
+        id:11,
         src: mongodb,
         title:'MongoDB',
         style: 'shadow-green-400',
-      }
+      },
+      {
+        id: 12,
+        src: sharepoint,
+        title: 'SharePoint',
+        style: 'shadow-green-400',
+      },
+      {
+        id: 13,
+        src: powerApps,
+        title: 'PowerApps',
+        style: 'shadow-pink-400',
+      },
+      {
+        id: 14,
+        src: powerautomate,
+        title: 'PowerAutomate',
+        style: 'shadow-blue-600',
+      },
+      {
+        id: 15,
+        src: powerbi,
+        title: 'PowerBI',
+        style: "shadow-orange-400",
+      },
+
     ];
   
     return (
@@ -102,7 +123,7 @@ const Experience = () => {
             <p className="py-6">These are the technologies I've worked with</p>
           </div>
   
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-12 text-center py-8 px-12 sm:px-0">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-12 text-center py-8 px-12 sm:px-0">
             {techs.map(({ id, src, title, style }) => (
               <div
                 key={id}

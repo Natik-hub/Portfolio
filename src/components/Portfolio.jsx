@@ -1,24 +1,24 @@
 import React from "react";
-import littlelemon from "../assets/portfolio/littlelemon.png";
-import cafeWebsite from "../assets/portfolio/cafeWebsite.png";
+import debol from "../assets/portfolio/Debol.png";
+import ticketTracker from "../assets/portfolio/TicketTracker.png";
 import blogApp from '../assets/portfolio/blogApp.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: cafeWebsite,
-      href: "https://github.com/Natik-hub/CafeWebsite",
+      src: debol,
+      href: "https://www.debolmarket.com/",
     },
     {
       id: 2,
-      src: littlelemon,
-      href: "https://github.com/Natik-hub/Frontend-Developer_Capstone",
+      src: blogApp,
+      href: "https://blog-app-one-cyan.vercel.app/",
     },
     {
       id: 3,
-      src: blogApp,
-      href: "https://blog-app-one-cyan.vercel.app/",
+      src: ticketTracker,
+      href: "",
     },
 
   
@@ -65,10 +65,10 @@ const Portfolio = () => {
                
               </div>
             </div>
-          ))}
-           <div>
-            <h1 className="flex items-center justify-center text-4xl font-bold ">Check my Github for more</h1>
+          ))}  
         </div>
+        <div>
+            <h1 className="flex items-center justify-center text-4xl font-bold py-6 ">Check my Github for more</h1>
         </div>
       </div>
     </div>

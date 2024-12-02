@@ -14,8 +14,9 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        It’s a pleasure to meet you. My name is Natnael Kibru and I have a degree in software engineering. I was self-employed as a software developer and digital marketer at a tech startup called Yaltopia tech. I have more than a year of experience developing websites. I have confidence in my ability to complete tasks assigned to me in a timely manner. I'm also a fast learner so I'm ready to learn new things if needed. I have good communication abilities and flexible to work in any environment as required. All in All, I believe I have necessary skills and knowledge required to help you. 
-          I have my CV and LinkedIn profile on the sidebar.
+        Hello, My name is Natnael Kibru. 
+        I am a passionate Software Engineer with a strong background in frontend development and Power Platform solutions. With a degree in Software Engineering, I have gained hands-on experience through my work at Yaltopia Tech, where I developed dynamic websites, and remotely working with private clients based in the U.S. as a Power Platform Developer. Over the past few years, I have honed my ability to create user-friendly and efficient applications while leveraging the Power Platform suite to deliver impactful business solutions.
+        I am a fast learner, committed to continuously improving my technical skills and adapting to new challenges. I pride myself on my strong communication skills, teamwork, and adaptability, which allow me to thrive in any working environment. With a keen eye for detail and a drive to meet deadlines, I am always ready to take on new opportunities and contribute to projects that make a difference.
 
         </p>
       </div>
